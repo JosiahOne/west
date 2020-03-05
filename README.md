@@ -21,7 +21,7 @@ A tenet of this tool is the following (unproven) claim:
 
 ## Usage
 
-west /path/to/working/dir "cmds --needed to --run tests"
+`west /path/to/working/dir "cmds --needed to --run tests"`
 
 For now it assumes the tests run locally, and simply copying the files in
 the working directory and running the test commands will trigger the tests.
