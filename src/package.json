@@ -1,0 +1,12 @@
+{
+  "name": "west",
+  "version": "0.0.1",
+  "description": "Ruin programs, benchmark your testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc; node index.js"
+  },
+  "author": "Josiah Bruner",
+  "license": "ISC"
+}
