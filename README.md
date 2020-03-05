@@ -18,3 +18,13 @@ A tenet of this tool is the following (unproven) claim:
   "Assume a monkey hits a keyboard for a while and suddenly finds itself with
    a copy of your software project. If the monkey then makes a bunch of random
    changes to your program, those changes are likely unwanted."
+
+## Usage
+
+west /path/to/working/dir "cmds --needed to --run tests"
+
+For now it assumes the tests run locally, and simply copying the files in
+the working directory and running the test commands will trigger the tests.
+
+If the test command returns 0, we assume tests have passed. Else we assume some
+kind of failure.
